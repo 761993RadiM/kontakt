@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#111827">
+<title>Radim Dallos – Kontakt</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px;
+         font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+         color: #f9fafb; background: linear-gradient(145deg,#0f172a,#1e293b); }
+  main { width: min(100%, 420px); padding: 34px 26px; text-align: center; border: 1px solid #ffffff24;
+         border-radius: 24px; background: #ffffff0d; box-shadow: 0 20px 60px #0005; }
+  .avatar { width: 82px; height: 82px; margin: 0 auto 18px; display:grid; place-items:center;
+            border-radius:50%; background:#334155; font-size:32px; font-weight:700; }
+  h1 { margin: 0; font-size: 29px; letter-spacing: -.5px; }
+  .subtitle { margin: 8px 0 28px; color:#cbd5e1; }
+  .phone { display:block; margin: 0 0 22px; color:#fff; font-size:24px; font-weight:700; text-decoration:none; }
+  .actions { display:grid; gap:12px; }
+  a.button { display:block; padding:15px 18px; border-radius:13px; font-weight:700; text-decoration:none; }
+  .call { color:#052e16; background:#86efac; }
+  .save { color:#f8fafc; background:#334155; border:1px solid #64748b; }
+  footer { margin-top:24px; color:#94a3b8; font-size:12px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="avatar" aria-hidden="true">RD</div>
+  <h1>Radim Dallos</h1>
+  <p class="subtitle">Kontaktní vizitka</p>
+  <a class="phone" href="tel:+420730457281">+420 730 457 281</a>
+  <div class="actions">
+    <a class="button call" href="tel:+420730457281">Zavolat</a>
+    <a class="button save" href="radim-dallos.vcf" download>Uložit kontakt</a>
+  </div>
+  <footer>Osobní kontaktní stránka</footer>
+</main>
+</body>
+</html>
